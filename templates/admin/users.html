@@ -116,7 +116,7 @@ endblock %} {% block content %}
                   method="POST"
                   class="inline"
                 >
-                  <button
+                  <!-- <button
                     type="submit"
                     class="text-green-600 hover:text-green-900"
                     title="{{ 'Remove Admin' if user.is_admin else 'Make Admin' }}"
@@ -124,7 +124,7 @@ endblock %} {% block content %}
                     <i
                       class="fas {{ 'fa-user-minus' if user.is_admin else 'fa-user-shield' }}"
                     ></i>
-                  </button>
+                  </button> -->
                 </form>
                 <form
                   action="{{ url_for('admin.delete_user', user_id=user.id) }}"

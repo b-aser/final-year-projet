@@ -4,7 +4,7 @@ from config import Config
 
 # Configure Ollama
 OLLAMA_API_URL = "http://localhost:11434/api/chat"  # Default Ollama API endpoint
-MODEL = "b-aser/jkug3-v1"  # Using your local Llama 3.2 model (adjust if your model name is different)
+MODEL = "mistral"  # Using your local Llama 3.2 model (adjust if your model name is different)
 
 def ask_question(question, context):
     """

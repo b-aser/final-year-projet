@@ -135,9 +135,33 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-100 text-gray-600 p-4 mt-auto">
+    <!-- <footer class="bg-gray-100 text-gray-600 p-4 mt-auto">
       <div class="container mx-auto">
         <p class="text-center">
+          &copy; {{ now.year }} PDF Chat. All rights reserved.
+        </p>
+      </div>
+    </footer> -->
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-gray-600 p-4 mt-auto">
+      <div class="container mx-auto">
+        <div
+          class="flex flex-col md:flex-row justify-center items-center gap-4 text-sm"
+        >
+          <div class="text-center md:text-left">
+            <p>Need help? Contact our support team:</p>
+          </div>
+          <div class="flex flex-wrap justify-center gap-4">
+            <a href="mailto:support@pdfchat.com" class="hover:text-gray-800">
+              <i class="fas fa-envelope mr-1"></i> support@pdfchat.com
+            </a>
+            <a href="tel:+1234567890" class="hover:text-gray-800">
+              <i class="fas fa-phone mr-1"></i> +1 (234) 567-890
+            </a>
+          </div>
+        </div>
+        <p class="text-center mt-4 text-xs text-gray-500">
           &copy; {{ now.year }} PDF Chat. All rights reserved.
         </p>
       </div>
