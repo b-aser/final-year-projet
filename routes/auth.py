@@ -28,6 +28,7 @@ def register():
         new_user = User(
             username=form.username.data,
             email=form.email.data
+            
         )
         new_user.set_password(form.password.data)
         
