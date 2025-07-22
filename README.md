@@ -1,3 +1,5 @@
+## There are things left in this doc, please follow the instruction s with caution.
+
 # PDF Chat
 
 An AI-powered chatbot for summarizing and interacting with multiple PDF documents.
